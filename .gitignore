@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+.settings
+.classpath
+.project
+/src/test
+/target/classes
+/target/maven-archiver
+/target/test-classes
+ua.FlyElephant.iml
+
