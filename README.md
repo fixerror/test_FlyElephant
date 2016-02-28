@@ -2,13 +2,13 @@
 
 ## Java spark WordCount 
 
-test local: run_test_windows.bat   
+## test local: run_test_windows.bat   
 
 ### info:
 #### input file: test.txt
 #### output file rezult.txt
                                    
-test FlyElephant: run.sh
+## test FlyElephant: run.sh
 
 ###info:
 #### previously delete github file test.txt & rezult.txt
