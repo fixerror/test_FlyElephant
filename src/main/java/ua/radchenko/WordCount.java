@@ -50,7 +50,7 @@ public class WordCount {
 		try (FileWriter writer = new FileWriter(outputFile, false)) {
 			List<Tuple2<String, Integer>> output = counts.collect();
 			for (Tuple2<?, ?> tuple : output) {
-				// System.out.println(tuple._1() + ": " + tuple._2());
+				System.out.println(tuple._1() + ": " + tuple._2());
 				writer.append(tuple._1() + ": " + tuple._2() + "\n");
 				writer.flush();
 			}
